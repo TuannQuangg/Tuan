@@ -344,6 +344,10 @@ body {
 }
 .content3 a:hover {
   border-bottom: 1px solid;
+
+  text-shadow: 0 0 5px white;
+
+  transition: ease-in-out 0.2s;
 }
 
 .scroll-btn {
@@ -376,8 +380,6 @@ body {
     #fffb00,
     #48ff00,
     #00ffd5,
-    #002bff,
-    #7a00ff,
     #ff00c8,
     #ff0000
   );
@@ -494,7 +496,7 @@ body {
 
   transform: translateY(-40px);
 
-  background-color: #593b31;
+  background-color: #292728;
 }
 
 .artist__card-avt::after {
